@@ -181,3 +181,7 @@ gulp.task("build", function (callback) {
 gulp.task('default', function () {
     runSequence('build:server', 'build:client', 'clientResources', 'serverResources', 'libs', 'css', 'watch', 'start');
 });
+
+gulp.task('heroku:production', function(){
+  runSequence('build');
+})

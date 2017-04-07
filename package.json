@@ -7,7 +7,7 @@
     "compile": "gulp compile",
     "build": "gulp build",
     "deploy": "concurrently --kill-others \"gulp watch\" \"node ./dist/server/bin/www\"",
-    "postinstall": "gulp installTypings | gulp build"
+    "postinstall": "gulp installTypings"
   },
   "repository": {
     "type": "git",
@@ -35,16 +35,8 @@
     "body-parser": "1.17.1",
     "bootstrap": "^3.3.7",
     "core-js": "^2.4.1",
-    "express": "^4.15.2",
-    "mongoose": "^4.8.6",
-    "reflect-metadata": "^0.1.10",
-    "rxjs": "5.2.0",
-    "systemjs": "0.20.9",
-    "zone.js": "^0.7.7"
-  },
-  "devDependencies": {
-    "concurrently": "^3.4.0",
     "del": "^2.2.2",
+    "express": "^4.15.2",
     "gulp": "^3.9.1",
     "gulp-concat": "^2.6.0",
     "gulp-nodemon": "^2.2.1",
@@ -52,12 +44,19 @@
     "gulp-tslint": "^7.1.0",
     "gulp-typescript": "^3.0.1",
     "gulp-typings": "^2.0.4",
-    "method-override": "^2.3.6",
+    "mongoose": "^4.8.6",
+    "reflect-metadata": "^0.1.10",
     "run-sequence": "^1.2.2",
+    "rxjs": "5.2.0",
+    "systemjs": "0.20.9",
+    "zone.js": "^0.7.7"
+  },
+  "devDependencies": {
+    "concurrently": "^3.4.0",
+    "method-override": "^2.3.6",
     "ts-node": "2.1.0",
     "tslint": "^4.5.1",
-    "typescript": "^2.2.1",
-    "yargs": "^7.0.2"
+    "typescript": "^2.2.1"
   },
   "bugs": {
     "url": "https://github.com/moizKachwala/Angular2-expressjs-mongoose-gulp-node-typescript/issues"
