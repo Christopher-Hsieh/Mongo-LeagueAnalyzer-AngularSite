@@ -11,8 +11,7 @@
     "heroku-postbuild": "gulp build"
   },
   "repository": {
-    "type": "git",
-    "url": "git+https://github.com/moizKachwala/Angular2-expressjs-mongoose-gulp-node-typescript.git"
+    "type": "git"
   },
   "keywords": [
     "Angular2",
