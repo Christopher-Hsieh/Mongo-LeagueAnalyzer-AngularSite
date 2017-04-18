@@ -1,3 +1,33 @@
+----
+### LeagueOfLegends-Analyzer
+
+----
+## FEATURES FOR THE SITE
+
+1. Current - search your profile. display season 7 stats
+2. next find best item you had
+
+## Frontend
+- Input box for summoner name
+- Display basic data
+- List of items used in Ranked - Percentage usage of items
+
+
+## Backend
+- Java rest controller to get info for summoner - Later add rest controllers for more info
+- Java code to populate db when rest controller is called
+
+
+## High Level Structure
+frontend - angular2 typescript
+middle - nodejs/express
+backend - mongoDb (java aggregate analyzer for data)
+
+
+
+
+
+
 ## [ Angular2 Updated to 2.4.1 ]
 # Angular2 MEAN - QuickStart application with ExpressJS, MongoDB, Gulp and Typescript (Repository Pattern)
 
